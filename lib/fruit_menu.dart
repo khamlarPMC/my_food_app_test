@@ -16,7 +16,7 @@ class FruitMenuPage extends StatelessWidget {
         children: [
           Expanded(
             child: SingleChildScrollView(
-              physics: AlwaysScrollableScrollPhysics(), // Enable scrolling even when content is not overflowing
+              physics: AlwaysScrollableScrollPhysics(), // Enable scrolling even whne content is not overflowing
               child: Container(
                 padding: const EdgeInsets.all(16.0),
                 child: Column(
